@@ -27,7 +27,7 @@ Data sources: ACS, BLS, CPS, BLS, BEA, EPI, NIPA, SSA
 
 Access: API access with R package `swadlr`. User-facing website at https://data.epi.org.
 
-More information: `references/swadl.md`.
+More information: [references/swadl.md](references/swadl.md).
 
 ### Bureau of Labor Statistics (BLS)
 
@@ -39,12 +39,12 @@ Data sources: BLS, CPI, CPS, LAUS, OEWS
 
 Access: API access with `get_bls()` and `find_bls()` from the R package `epidatatools`. User-facing website at https://bls.gov.
 
-More information: `references/bls.md`.
+More information: [references/bls.md](references/bls.md).
 
 ## Prices and inflation
 Common CPI- and PCE-based indexes are available in the R package `realtalk`.
 
-More information: `references/inflation.md`.
+More information: [references/inflation.md](references/inflation.md).
 
 ## Other important US economic data at the national or regional level
 
@@ -68,10 +68,10 @@ This should be your first stop for analysis using Current Population Survey micr
 
 The EPI CPS variables are documented at https://microdata.epi.org.
 
-More information: `references/epi_cps.md`.
+More information: [references/epiextracts.md](references/epiextracts.md).
 
 ### IPUMS microdata extracts
 
 The IPUMS microdata extracts are a useful secondary source, and contain more variables and data sources than the EPI CPS extracts, but be aware that IPUMS contains fewer consistent codes across time. You can download them via their microdata API with the associated functions in the `epidatatools` package or the `ipumsr` package.
 
-More information: `references/ipums.md`.
+More information: [references/ipums.md](references/ipums.md).
