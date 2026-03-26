@@ -1,6 +1,6 @@
 ---
 name: remote-code-researcher
-description: Research code in remote repositories by cloning and examining locally. Use this instead of the Explore agent for any remote/external repository.
+description: Research code in remote repositories by cloning and examining locally. Use this instead of the Explore agent for any remote or external repository.
 skills:
   - research-remote-code
 ---

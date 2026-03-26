@@ -3,7 +3,7 @@ name: get-econ-data
 description: Provides useful economic data sources and ways to retrieve the data. Use when user asks for "prices", "inflation", "employment", "unemployment", "inequality", "productivity", "poverty", "CPS", "Census", "BLS", "BEA", "FRED", "IPUMS", "SWADL", "State of Working America Data Library".
 ---
 
-# economics-data
+# get-econ-data
 
 Useful economic data sources and ways to retrieve the data.
 
@@ -25,7 +25,10 @@ Geography: national, state
 
 Data sources: ACS, BLS, CPS, BLS, BEA, EPI, NIPA, SSA
 
-Access: API access with R package `swadlr`. User-facing website at https://data.epi.org.
+Access:
+
+- API access with R package `swadlr`. 
+- User-facing website at https://data.epi.org.
 
 More information: [references/swadl.md](references/swadl.md).
 
@@ -37,7 +40,10 @@ Geography: national, state, local areas
 
 Data sources: BLS, CPI, CPS, LAUS, OEWS
 
-Access: API access with `get_bls()` and `find_bls()` from the R package `epidatatools`. User-facing website at https://bls.gov.
+Access: 
+
+- API access with `get_bls()` and `find_bls()` from the R package `epidatatools`. Requires API key from 
+- User-facing website at https://bls.gov.
 
 More information: [references/bls.md](references/bls.md).
 

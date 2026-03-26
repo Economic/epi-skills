@@ -1,6 +1,6 @@
 ---
 name: research-remote-code
-description: Techniques for retrieving and investigating remote codebases and their documentation. TRIGGER when: user provides a GitHub/GitLab URL to look at, asks to follow conventions from a remote repo, asks "how does package/library X implement/handle Y", or references any external repository's code, structure, or patterns. Examples: "follow the conventions in https://github.com/...", "look at how repo X does Y", "check this GitHub link".
+description: Techniques for retrieving and investigating remote codebases and their documentation. Use when user provides a GitHub/GitLab URL to look at, asks to follow conventions from a remote repo, asks "how does package/library X implement/handle Y", or references any external repository's code, structure, or patterns. Examples: "follow the conventions in https://github.com/...", "look at how repo X does Y", "check this GitHub link".
 ---
 
 ## Accessing code from remote repositories
