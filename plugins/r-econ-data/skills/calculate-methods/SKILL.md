@@ -15,4 +15,6 @@ Use the `MetricsWeighted` package for weighted medians and percentiles: `weighte
 
 ## Percentiles with "bunched" data
 
-When using data that is assumed to be continuous but in practice is "bunched" at discrete points -- like reported hourly wages -- it can be helpful to smooth the estimated percentiles. One technique is to take a weighted average of nearby percentiles. For example, consider using the `epidatatools` package `averaged_median(vector, w = weight)` and `averaged_quantile(vector, w = weight, probs = c(0.25, 0.50, 0.75))`. 
+When using data that is assumed to be continuous but in practice is "bunched" at discrete points -- like reported hourly wages -- it can be helpful to smooth the estimated percentiles. One technique is to take a weighted average of nearby percentiles. For example, consider using the `epidatatools` package `averaged_median(vector, w = weight)` and `averaged_quantile(vector, w = weight, probs = c(0.25, 0.50, 0.75))`.
+
+For median wages specifically, EPI requires `averaged_median()` over `binipolate`, with a prescribed universe and weight adjustment. See the `epi-standards` skill for the standard and its default quantile parameters. 

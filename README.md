@@ -6,7 +6,7 @@ A Claude Code plugin marketplace for economics and data analysis. We use these s
 
 | Plugin | Description |
 |--------|-------------|
-| [r-econ-data](plugins/r-econ-data/) | Economic data sources and retrieval methods for R (EPI SWADL, BLS, BEA, FRED, Census, IPUMS, CPS microdata). Includes skills for retrieving data, calculating statistics, and validating analyses. |
+| [r-econ-data](plugins/r-econ-data/) | Economic data sources, retrieval methods, and EPI data standards for R (EPI SWADL, BLS, BEA, FRED, Census, IPUMS, CPS microdata). Includes skills for retrieving data, calculating statistics, applying EPI's coding standards, and validating analyses. |
 | [research](plugins/research/) | Research skills and workflows, including techniques for retrieving and investigating remote codebases and documentation. |
 
 ## Installation

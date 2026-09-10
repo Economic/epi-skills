@@ -11,9 +11,23 @@
     {
       "name": "r-econ-data",
       "source": "./plugins/r-econ-data",
-      "description": "Economic data sources and retrieval methods for R (EPI SWADL, BLS, BEA, FRED, Census, IPUMS, CPS microdata)",
-      "version": "0.3.0",
-      "keywords": ["economics", "data", "R", "BLS", "BEA", "FRED", "CPS", "IPUMS", "SWADL"],
+      "description": "Economic data sources, retrieval methods, and EPI data standards for R (EPI SWADL, BLS, BEA, FRED, Census, IPUMS, CPS microdata)",
+      "version": "0.4.0",
+      "keywords": [
+        "economics",
+        "data",
+        "R",
+        "BLS",
+        "BEA",
+        "FRED",
+        "CPS",
+        "IPUMS",
+        "SWADL",
+        "standards",
+        "wages",
+        "employment",
+        "unions"
+      ],
       "category": "data"
     },
     {
@@ -21,7 +35,9 @@
       "source": "./plugins/research",
       "description": "Research skills and workflows",
       "version": "0.4.0",
-      "keywords": ["research"],
+      "keywords": [
+        "research"
+      ],
       "category": "research"
     }
   ]
