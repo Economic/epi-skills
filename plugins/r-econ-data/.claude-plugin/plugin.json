@@ -1,10 +1,24 @@
 {
   "name": "r-econ-data",
-  "version": "0.3.0",
-  "description": "Economic data sources and retrieval methods for R (EPI SWADL, BLS, BEA, FRED, Census, IPUMS, CPS microdata)",
+  "version": "0.4.0",
+  "description": "Economic data sources, retrieval methods, and EPI data standards for R (EPI SWADL, BLS, BEA, FRED, Census, IPUMS, CPS microdata)",
   "author": {
     "name": "Economic Policy Institute"
   },
-  "keywords": ["economics", "data", "R", "BLS", "BEA", "FRED", "CPS", "IPUMS", "SWADL"],
+  "keywords": [
+    "economics",
+    "data",
+    "R",
+    "BLS",
+    "BEA",
+    "FRED",
+    "CPS",
+    "IPUMS",
+    "SWADL",
+    "standards",
+    "wages",
+    "employment",
+    "unions"
+  ],
   "license": "MIT"
 }
